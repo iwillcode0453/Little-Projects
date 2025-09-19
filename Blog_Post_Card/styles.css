@@ -1,1 +1,65 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.blog-post-card {
+  background: white;
+  width: 350px;
+  text-align: center;
+  margin: 15px auto;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic; 
+  border-radius: 10px;
+  border: 2px solid rgb(232, 219, 219);
+}
+
+.post-img {
+  max-width: 100%;
+  border-bottom: 3px solid grey;
+}
+
+p {
+  font-size: 18px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: gray;
+  color: black;
+  font-weight: 400;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.post-content {
+  padding: 3px;
+  padding-bottom: 150;
+}
+
+.post-title, .post-excerpt {
+  padding: 0 10px;
+  margin: 10px 20px;
+  color: rgb(36, 33, 33);
+}
+
+.post-title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(108, 100, 100);
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.read-more:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(118, 95, 95);
+}
