@@ -1,2 +1,2 @@
-I changed the behaviour of my social media links and portfolio links when you hover on it
-I added transition effects whenever you hover over the links by changing the color and ease effect.
+- I changed the behaviour of my social media links and portfolio links when you hover on it.
+- I added transition effects whenever you hover over the links by changing the color and ease effect.
