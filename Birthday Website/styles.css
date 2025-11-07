@@ -1,0 +1,97 @@
+body {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  background: skyblue;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+#header {
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+  align-items: center;
+}
+
+/* #celebrant {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}  */
+
+.confetti {
+    width: 50px;
+    vertical-align: middle;
+    margin-left: -7px;
+}
+
+#jhal-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid pink;
+}
+
+#bday-old, #bday-date {
+    /* display: inline-block; */
+    background: pink;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+/* .gift-img {
+    width: 400px;
+    margin: 10px;
+    border: 6px solid white;
+    border-radius: 15px;
+} */
+
+.gift-happy {
+    background-image: url("gift-box2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border: 6px solid white;
+    border-radius: 15px;
+}
+
+.gift-happy:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGhtcm53NGs3YWl5bXFpbGY1OXZvdDYxcGEwdzA3ODFndXV1MnVjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1gITHcIZ24LXG7952M/giphy.gif");
+}
+
+#bday-wish {
+    color: rgb(230, 76, 230);
+    text-shadow: 2px 2px 1px black;
+    font-size: 24px;
+}
+
+.gift-wish {
+        background-image: url("gift-box2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 400px;
+    margin: 30px auto;
+    border: 6px solid white;
+    border-radius: 15px;
+}
+
+.hover {
+    color: rgb(240, 16, 16);
+    text-shadow: 2px 2px 1px black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.gift-wish:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm83OXYxeHBuaTN4YmV3M3hzaGJpbzFuemNmOTQ2aWxhNDdxZXk4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9utKFTChjMD33Rcq5t/giphy.gif")
+}
