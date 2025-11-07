@@ -1,12 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Happy Monkey", system-ui;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   color: white;
-  background: skyblue;
-  text-shadow: 2px 2px 4px black;
-  
+  /* background: linear-gradient(lightskyblue, pink); */
+  text-shadow: 2px 2px 2px black;
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  margin: 0;
 }
 
 #header {
@@ -14,7 +21,9 @@ body {
   flex-direction: column;
     justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
+
 
 /* #celebrant {
     display: flex;
@@ -32,14 +41,21 @@ body {
   width: 150px;
   border-radius: 50%;
   border: 5px solid pink;
+  margin: 30px auto 20px;
 }
 
 #bday-old, #bday-date {
     /* display: inline-block; */
     background: pink;
+    margin: 10px auto;
     padding: 5px 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px gray;
+}
+
+#gift-section-one {
+    margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* .gift-img {
@@ -94,4 +110,20 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s ease;
     background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm83OXYxeHBuaTN4YmV3M3hzaGJpbzFuemNmOTQ2aWxhNDdxZXk4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9utKFTChjMD33Rcq5t/giphy.gif")
+}
+
+.gift-footer {
+    margin: 50px 0 0 0;
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+.footer-author, .footer-date {
+    margin: 10px  auto 0;
+}
+
+.footer-author {
+    padding-top: 20px;
+}
+.footer-date {
+    padding-bottom: 20px;
 }
