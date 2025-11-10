@@ -1,0 +1,12 @@
+/* animate cards when you hover */
+#pricing #steel-string,
+#nylon-string {
+  transition: all 1s;
+  color: var(--light);
+}
+
+#pricing #steel-string:hover,
+#nylon-string:hover {
+  transform: scale(1.1);
+}
+/* animate cards when you hover */
